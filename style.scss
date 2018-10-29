@@ -18,9 +18,21 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+	font-family: Source Sans Pro;
+    font-weight: 300;
+    color: #50505a;
+    font-size: 19px;
+    background: #fafafa;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 .container {
