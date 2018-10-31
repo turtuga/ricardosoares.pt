@@ -4,7 +4,7 @@ title: How I hack SMIG from Municipality of Oliveira de Frades, Vouzela, Nelas, 
 author: Ricardo Soares
 ---
 
-In a visit at Municipality of Oliveira de Frades website ([http://cm-ofrades.com/](http://cm-ofrades.com/)) I see a link to other website called "Sistema Municipal de Informação Geográfica" ([http://sig.cm-ofrades.com](http://sig.cm-ofrades.com)). This website is protected by username and password.
+In a visit at Municipality of Oliveira de Frades website ([http://cm-ofrades.com/](http://cm-ofrades.com/)) I see a link to other website called "Sistema Municipal de Informação Geográfica" ([http://sig.cm-ofrades.com](http://sig.cm-ofrades.com)). This website is protected by username and password but...
 
 
 
