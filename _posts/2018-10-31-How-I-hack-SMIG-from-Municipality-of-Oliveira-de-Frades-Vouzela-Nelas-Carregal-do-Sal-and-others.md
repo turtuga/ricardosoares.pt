@@ -37,6 +37,6 @@ After a brief survey I noticed that several Municipality use the same platform, 
 ### In conclusion
 Following a responsible disclosure model, I reported the vulnerability to the developers of the application. Timeline of events:
 * 28 October 2018 - Discovery of the vulnerability and alerted the Municipality of Oliveira de Frades
-* 29 October 2018 - Alert the Municipalities of Vouzela, Nelas and Carregal do Sal (last one alerted by [http://andre-almeida.pt/](André Almeida))
+* 29 October 2018 - Alerted the Municipalities of Vouzela, Nelas and Carregal do Sal (last one alerted by [http://andre-almeida.pt/](André Almeida))
 * 30 October 2018 - Alerted the company responsible for the platform primelayer
 * 31 October 2018 - Vulnerability has been fixed
