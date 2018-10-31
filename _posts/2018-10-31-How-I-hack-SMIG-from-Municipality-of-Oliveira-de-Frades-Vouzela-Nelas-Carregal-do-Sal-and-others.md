@@ -6,7 +6,8 @@ author: Ricardo Soares
 
 In a visit at Municipality of Oliveira de Frades website ([http://cm-ofrades.com/](http://cm-ofrades.com/)) I see a link to other website called "Sistema Municipal de Informação Geográfica" ([http://sig.cm-ofrades.com](http://sig.cm-ofrades.com)). This website is protected by username and password.
 
-!### The vulnerability
+!
+### The vulnerability
 One of the major shortcomings that immediately hit me was the lack of secure communication **HTTPS** ([https://en.wikipedia.org/wiki/HTTPS](https://en.wikipedia.org/wiki/HTTPS)) which today becomes indispensable.
 [HTTPS]({{ site.baseurl }}/images/2018-10-31/no_ssl.png "HTTPS")
 
