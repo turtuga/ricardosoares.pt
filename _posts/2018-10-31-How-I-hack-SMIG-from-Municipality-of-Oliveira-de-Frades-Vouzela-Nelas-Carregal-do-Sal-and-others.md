@@ -29,9 +29,10 @@ When browsing the platform there are several licensing requests that can be cons
 
 ![PLANTAS]({{ site.baseurl }}/images/2018-10-31/plantas.png "PLANTAS")
 
-![DADOS PESSOAIS]({{ site.baseurl }}/images/2018-10-31/dados_pessoais.png "DADOS PESSOAIS")
 
 After a brief survey I noticed that several Municipality use the same platform, such as Oliveira de Frades, Vouzela, Nelas, Tondela, Carregal do Sal, Mangualde, Santa Comba Dão, Penalva do Castelo, Sátão, Aguiar da Beira, Castro Daire, Penalva do Castelo and others.
+
+![DADOS PESSOAIS]({{ site.baseurl }}/images/2018-10-31/dados_pessoais.png "DADOS PESSOAIS")
 
 
 ### In conclusion
