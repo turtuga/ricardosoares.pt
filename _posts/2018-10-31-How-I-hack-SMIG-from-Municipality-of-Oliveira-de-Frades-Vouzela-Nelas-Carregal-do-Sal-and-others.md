@@ -9,17 +9,22 @@ In a visit at Municipality of Oliveira de Frades website ([http://cm-ofrades.com
 !
 ### The vulnerability
 One of the major shortcomings that immediately hit me was the lack of secure communication **HTTPS** ([https://en.wikipedia.org/wiki/HTTPS](https://en.wikipedia.org/wiki/HTTPS)) which today becomes indispensable.
+
 [HTTPS]({{ site.baseurl }}/images/2018-10-31/no_ssl.png "HTTPS")
 
 Eventually, I tested the system for attacks known as **SQL Injection** ([https://www.owasp.org/index.php/SQL_Injection](https://www.owasp.org/index.php/SQL_Injection)) in the username and password.
+
 [LOGIN]({{ site.baseurl }}/images/2018-10-31/query_login.png "LOGIN")
 
 Well, the system was vulnerable to **SQL Injection**. After the vulnerability was exploited, I was able to login to the platform as Administrator.
 With an administrator login I was able to query users as well their email addresses, edit or remove them.
+
 [USERS]({{ site.baseurl }}/images/2018-10-31/gestao_users.png "USERS")
 
 When browsing the platform there are several licensing requests that can be consulted and/or removed and personal data such as _names, addresses, telephone numbers and NIF's_.
+
 [PLANTAS]({{ site.baseurl }}/images/2018-10-31/plantas.png "PLANTAS")
+
 [DADOS PESSOAIS]({{ site.baseurl }}/images/2018-10-31/dados_pessoais.png "DADOS PESSOAIS")
 
 After a brief survey I noticed that several Municipality use the same platform, such as Oliveira de Frades, Vouzela, Nelas, Tondela, Carregal do Sal, Mangualde, Santa Comba Dão, Penalva do Castelo, Sátão, Aguiar da Beira, Castro Daire, Penalva do Castelo and others.
