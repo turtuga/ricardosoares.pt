@@ -9,7 +9,7 @@ In a visit at Municipality of Oliveira de Frades website ([http://cm-ofrades.com
 
 
 ### The vulnerability
-One of the major shortcomings that immediately hit me was the lack of secure communication **HTTPS** ([https://en.wikipedia.org/wiki/HTTPS](https://en.wikipedia.org/wiki/HTTPS)) which today becomes indispensable.
+One of the major shortcomings that immediately hit me was the lack of secure communication **HTTPS** ([https://www.owasp.org/index.php/SSL_Best_Practices](https://www.owasp.org/index.php/SSL_Best_Practices)) which today becomes indispensable.
 
 ![HTTPS]({{ site.baseurl }}/images/2018-10-31/no_ssl.png "HTTPS")
 
