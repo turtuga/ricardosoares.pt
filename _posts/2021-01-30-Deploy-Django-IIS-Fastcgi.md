@@ -72,3 +72,5 @@ We need change our application pool "Identity" in IIS Manager -> Application Poo
 After this navigate again to http://localhost:8081/ and you should see your project
 
 ![django]({{ site.baseurl }}/images/2021-01-30/django.png "django") 
+
+Add your hostname to your Django setting’s ALLOWED_HOSTS key.
