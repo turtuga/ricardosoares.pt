@@ -18,11 +18,10 @@ html {
 }
 
 body {
-	font-family: Source Sans Pro;
-    font-weight: 300;
-    color: #50505a;
-    font-size: 19px;
-    background: #fafafa;
+	font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+  color: rgb(41, 41, 41);
+  font-size: 16px;
+  background: #fafafa;
 }
 
 ::-moz-selection {
@@ -47,7 +46,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.7;
-  margin: 1em 0 15px;
   padding: 0;
 
   @include mobile {
@@ -56,7 +54,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 25px;
+  line-height: 33px;
   a {
     color: inherit;
   }
@@ -68,6 +67,7 @@ h2 {
 
 h3 {
   font-size: 20px;
+  margin: 45px 0 0px 0;
 }
 
 h4 {
@@ -76,8 +76,8 @@ h4 {
 }
 
 p {
-  margin: 15px 0;
-  line-height: 35px;
+  margin-top: 1em;
+  line-height: 24px;
 }
 
 a {
@@ -90,7 +90,7 @@ a {
 }
 
 ul, ol {
-  margin: 15px 0;
+  margin-top: 1em;
   padding-left: 30px;
 }
 
@@ -99,7 +99,7 @@ ul {
 }
 
 ul li {
-  line-height: 35px;
+  line-height: 24px;
 }
 
 ol {
@@ -134,6 +134,7 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+  margin-top: 40px;
 }
 
 // Specify the color of the selection
@@ -167,7 +168,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .masthead {
@@ -214,7 +215,7 @@ img {
 }
 
 .site-description {
-  margin: -5px 0 0 0;
+  margin: 2px 0 0 0;
   color: $gray;
   font-size: 16px;
 
@@ -254,7 +255,7 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding: 20px 0 30px;
   border-bottom: 1px solid $lightGray;
 }
 
@@ -278,9 +279,17 @@ nav {
   }
 
   .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
+    font-size: 12px;
   }
+}
+
+.center-image {
+  margin: 0 auto;
+  display: block;
+}
+
+.entry {
+  margin-bottom: 15px;
 }
 
 .wrapper-footer {

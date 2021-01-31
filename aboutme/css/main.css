@@ -1,11 +1,5 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
-}
-
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -56,10 +50,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 html {
-    font-family: Source Sans Pro;
-    font-weight: 300;
-    color: #50505a;
-    font-size: 19px;
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    color: #292929;
+    font-size: 16px;
     background: #fafafa;
 }
 
@@ -74,7 +67,7 @@ p {
 }
 
 .content {
-    max-width: 23em;
+    max-width: 600px;
     margin: 20px auto;
 }
 
@@ -159,14 +152,18 @@ strong a {
     margin-top: 0;
 }
 
+.skills-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
 .skills p {
     margin: 0;
 }
 
 .col-50 {
-    width: 46%; 
-    padding: 1%;
-    padding: 5px;
+    width: 32%; 
+    padding: 10px 9% 0 9%;
     float: left;
 }
 
@@ -184,6 +181,7 @@ strong a {
 .timeline h1, .timeline h2, .timeline h3, .timeline h4, .timeline h5, .timeline h6 {
     line-height: inherit;
     margin-top: 0px;
+    margin-bottom: 10px;
 }
 .timeline h2 {
     padding-left: 5px;
